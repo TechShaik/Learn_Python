@@ -7,7 +7,7 @@ class Shaik:
     def home(self):
         return "Welcome " + self.name + " your age is " + str(self.age)
 
-p1=Shaik("Shaik", 25)
+p1=Shaik()
 print(p1.home())
 
 
@@ -21,5 +21,5 @@ class Dog(Animal):
 
 a = Animal()
 d = Dog()
-print(a.speak())   # Animal sound
+print(a.speak())       # Animal sound
 print(d.speak())
